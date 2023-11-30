@@ -1,0 +1,41 @@
+.Container{
+    background-color: #EBD4EF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 5px;
+    background-color: #995DB5;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:hover{
+        /* cursor: pointer; */
+        transition: background .3s ease, transform .3s ease; /* Smooth transition on hover */
+        transform: scale(1.1); /* Zoom in on hover */
+        /* color: #4000F5; */ /*text coor on hover*/
+    }
+}
+.cardHeading{
+    background-color: wheat;
+    margin-bottom: 10px;;
+}
+.description{
+    background-color:#F7941F ;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.learnMore{
+    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover{
+        transition: background .3s ease, transform .3s ease; /* Smooth transition on hover */
+        transform: scale(1.1); /* Zoom in on hover */
+    }
+}
