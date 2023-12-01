@@ -21,7 +21,13 @@ const CardComponent = () => {
                 <p className="description">card eu fugiat nulla pariatur. Exceptit anim id est laborum.</p>
                 <button className="learnMore">Learn More</button>
             </div>
+            <div>
+                <h1 className="text-3xl font-bold underline">
+                    Hello world!
+                </h1>
+            </div>
         </div>
+
     )
 };
 export default CardComponent;
