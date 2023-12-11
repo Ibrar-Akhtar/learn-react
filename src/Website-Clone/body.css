@@ -1,0 +1,15 @@
+
+ul {
+    list-style-type: disc; /* Set the bullet style (e.g., disc, circle, square) */
+    margin: 0; /* Remove default margin */
+    margin-left: 20px;
+    padding: 0; /* Remove default padding */
+    border: 2px solid #333; /* Add a solid border with a color (#333 is a dark gray) */
+    border-radius: 5px; /* Optional: Add rounded corners to the list */
+  
+  }
+  
+  li {
+    margin-bottom: 0.5em; /* Optional: Add spacing between list items */
+  }
+
